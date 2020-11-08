@@ -14,3 +14,7 @@ spring:
   application:
     name: cloud-provider-hystrix-payment
 #    eviction-interval-timer-in-ms: 2000
+
+feign:
+  hystrix:
+    enabled: true
