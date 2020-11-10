@@ -1,0 +1,31 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: cloud-payment-service
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+    url: jdbc:mysql://192.168.0.88:3306/dbSpringCloud?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: payment8002
+    prefer-ip-address: true
+
+mybatis:
+  #mapper和dao接口不在同一个包写时，配xml的路径
+  mapperLocations: classpath:mapper/*.xml
+  #配上之后，xml的parameterType不用写全路径
+  type-aliases-package: com.zhihao.springcloud.entities    # 所有Entity别名类所在包
+
+

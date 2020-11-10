@@ -1,0 +1,30 @@
+package com.zhihao.springcloud.config;
+
+import org.springframework.cloud.gateway.route.RouteLocator;
+import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @ClassName GateWayConfig
+ * @Description: TODO
+ * @Author zhiHao
+ * @Date 2020/11/10
+ * @Version V1.0
+ **/
+//@Configuration
+public class GateWayConfig {
+    @Bean
+    public RouteLocator customRouteLocator(RouteLocatorBuilder routeLocatorBuilder)
+    {
+        RouteLocatorBuilder.Builder routes = routeLocatorBuilder.routes();
+
+        routes.route("path_route_atguigu",
+                r -> r.path("/guonei")
+                        .uri("http://news.baidu.com/guonei"))
+                .route("path_route_atguigu2",
+                r -> r.path("/guoji")
+                        .uri("http://news.baidu.com/guoji")).build();
+        return routes.build();
+    }
+}

@@ -70,7 +70,6 @@ public class PaymentControl {
         return this.discoveryClient;
     }
 
-
     @Value("${server.port}")
     private String serverPort;
     @GetMapping(value = "/lb")
