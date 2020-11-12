@@ -5,3 +5,14 @@
 /cloud-eureka-server7001/target
 /cloud-provider-hystrix-payment8001/target
 /cloud-provider-payment8001/target
+/cloud-gateway-gateway9527/target/classes/application.yml
+/cloud-gateway-gateway9527/target/classes/com/zhihao/springcloud/GatewayMain9527.class
+/cloud-gateway-gateway9527/target/classes/com/zhihao/springcloud/config/GateWayConfig.class
+/cloud-gateway-gateway9527/target/classes/com/zhihao/springcloud/filter/MyFilter.class
+/cloud-provider-payment8002/target/classes/application.yml
+/cloud-provider-payment8002/target/classes/com/zhihao/springcloud/PaymentMain8002.class
+/cloud-provider-payment8002/target/classes/com/zhihao/springcloud/control/PaymentControl.class
+/cloud-provider-payment8002/target/classes/com/zhihao/springcloud/dao/PaymentDao.class
+/cloud-provider-payment8002/target/classes/com/zhihao/springcloud/service/PaymentService.class
+/cloud-provider-payment8002/target/classes/com/zhihao/springcloud/service/impl/PaymentServiceImpl.class
+/cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml
