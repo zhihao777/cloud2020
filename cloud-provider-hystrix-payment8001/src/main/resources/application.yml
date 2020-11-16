@@ -15,6 +15,12 @@ spring:
     name: cloud-provider-hystrix-payment
 #    eviction-interval-timer-in-ms: 2000
 
+  rabbitmq:
+    host: 192.168.0.88
+    port: 5672
+    username: guest
+    password: guest
+
 feign:
   hystrix:
     enabled: true
@@ -25,3 +31,4 @@ management:
     web:
       exposure:
         include: "*"
+

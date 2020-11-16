@@ -16,3 +16,11 @@
 /cloud-provider-payment8002/target/classes/com/zhihao/springcloud/service/PaymentService.class
 /cloud-provider-payment8002/target/classes/com/zhihao/springcloud/service/impl/PaymentServiceImpl.class
 /cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml
+/cloud-config-center-3344/target/classes/com/zhihao/springcloud/ConfigCenterMain3344.class
+/cloud-config-center-3344/target/classes/config/bootstrap.yml
+/cloud-config-center-3344/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/cloud-config-center-3344/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/cloud-gateway-gateway9527/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/cloud-gateway-gateway9527/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/cloud-provider-payment8002/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/cloud-provider-payment8002/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
