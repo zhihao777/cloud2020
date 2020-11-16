@@ -3,6 +3,8 @@ package com.zhihao.springcloud.control;
 import com.zhihao.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 @Slf4j
+@RefreshScope
 public class PaymentControl {
 
     @Autowired
@@ -44,5 +47,12 @@ public class PaymentControl {
         return result;
     }
 
+    @Value("${testConfig.version}")
+    private String testConfigVersion;
+    @GetMapping("/payment/configValue")
+    public String paymentconfigValue(){
+        log.info("*******testConfigVersion:"+testConfigVersion);
+        return testConfigVersion;
+    }
 
 }
