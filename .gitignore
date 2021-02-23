@@ -11,7 +11,7 @@
 /cloud-gateway-gateway9527/target/classes/com/zhihao/springcloud/filter/MyFilter.class
 /cloud-provider-payment8002/target/classes/application.yml
 /cloud-provider-payment8002/target/classes/com/zhihao/springcloud/PaymentMain8002.class
-/cloud-provider-payment8002/target/classes/com/zhihao/springcloud/control/PaymentControl.class
+/cloud-provider-payment8002/target/classes/com/zhihao/springcloud/com.zhihao.control/PaymentControl.class
 /cloud-provider-payment8002/target/classes/com/zhihao/springcloud/dao/PaymentDao.class
 /cloud-provider-payment8002/target/classes/com/zhihao/springcloud/service/PaymentService.class
 /cloud-provider-payment8002/target/classes/com/zhihao/springcloud/service/impl/PaymentServiceImpl.class
