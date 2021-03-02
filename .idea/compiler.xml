@@ -16,11 +16,15 @@
         <module name="cloud-api-commons" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8001" />
+        <module name="cloudalibaba-consumer-nacos-order84" />
+        <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloudalibaba-provider-payment9011" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloudalibaba-provider-payment9004" />
+        <module name="cloudalibaba-provider-payment9003" />
       </profile>
     </annotationProcessing>
   </component>
