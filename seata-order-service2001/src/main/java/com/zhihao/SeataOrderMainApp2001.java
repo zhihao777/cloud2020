@@ -16,8 +16,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  **/
 @EnableDiscoveryClient
 @EnableFeignClients
-@MapperScan({"com.zhihao.dao"})
-@SpringBootApplication
+@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 public class SeataOrderMainApp2001{
 
     public static void main(String[] args)

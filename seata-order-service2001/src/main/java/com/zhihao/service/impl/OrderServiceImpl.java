@@ -33,7 +33,7 @@ public class OrderServiceImpl implements OrderService {
      */
 
     @Override
-    //@GlobalTransactional
+    @GlobalTransactional
     public void create(Order order) {
         log.info("----->开始新建订单");
         //新建订单
