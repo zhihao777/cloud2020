@@ -31,6 +31,8 @@
       <module>seata-order-service2001</module>
     <module>seata-storage-service2002</module>
     <module>seata-account-service2003</module>
+    <module>seata-tm</module>
+      <module>seata-tcc</module>
   </modules>
 
   <!-- 统一管理jar包版本 -->

@@ -23,6 +23,8 @@
     <file url="file://$PROJECT_DIR$/seata-account-service2003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-order-service2001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-storage-service2002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-tm" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
